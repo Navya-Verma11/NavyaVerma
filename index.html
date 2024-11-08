@@ -1,340 +1,389 @@
-<!doctype html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>My Portfolio</title>
-    <link rel="stylesheet" href="swiper-bundle.min.css" />
-    <link rel="stylesheet" href="newcss.css" />
-    <link
-      rel="stylesheet"
-      href="https://unicons.iconscout.com/release/v4.0.8/css/line.css"
-    />
-  </head>
+      <!doctype html>
+      <html lang="en">
+        <head>
+          <meta charset="UTF-8" />
+          <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+          <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+          <title>My Portfolio</title>
+          <link rel="stylesheet" href="swiper-bundle.min.css" />
+          <link rel="stylesheet" href="newcss.css" />
+          <link
+            rel="stylesheet"
+            href="https://unicons.iconscout.com/release/v4.0.8/css/line.css"
+          />
+        </head>
 
-  <body oncontextmenu="return false">
-    <header class="header" id="header">
-      <nav class="nav container">
-        <a href="#" class="nav__logo">Navya Verma</a>
-        <div class="nav__menu" id="nav-menu">
-          <ul class="nav__list grid">
-            <li class="nav__item">
-              <a href="#home" class="nav__link active-link">
-                <i class="uil uil-estate nav__icon"></i>Home
-              </a>
-            </li>
-            <li class="nav__item">
-              <a href="#about" class="nav__link">
-                <i class="uil uil-user nav__icon"></i>About
-              </a>
-            </li>
-            <li class="nav__item">
-              <a href="#skills" class="nav__link">
-                <i class="uil uil-file-alt nav__icon"></i>Skills
-              </a>
-            </li>
-            <li class="nav__item">
-              <a href="#qualification" class="nav__link">
-                <i class="uil uil-briefcase-alt nav__icon"></i>Qualification
-              </a>
-            </li>
-            <li class="nav__item">
-              <a href="#portfolio" class="nav__link">
-                <i class="uil uil-scenery nav__icon"></i>Projects
-              </a>
-            </li>
-            <li class="nav__item">
-              <a href="#contact" class="nav__link">
-                <i class="uil uil-message nav__icon"></i>Contact-Me
-              </a>
-            </li>
-          </ul>
-          <i class="uil uil-times nav__close" id="nav-close"></i>
-        </div>
-        <div class="nav__btns">
-          <!-- Theme change button -->
-          <i class="uil uil-moon change-theme" id="theme-button"></i>
-
-          <div class="nav__toggle" id="nav-toggle">
-            <i class="uil uil-apps"></i>
-          </div>
-        </div>
-      </nav>
-    </header>
-    <!-- main-->
-
-    <main class="main">
-      <!--========================= Home =====================-->
-
-      <section class="home section" id="home">
-        <div class="home__container container grid">
-          <div class="home__content grid">
-            <div class="home__social">
-              <a
-                href="https://www.linkedin.com/in/venkatesh-kamath-/"
-                target="_blank"
-                class="home__social-icon"
-              >
-                <i class="uil uil-linkedin-alt home__icon"></i>
-              </a>
-
-              <a
-                href="https://github.com/Venkateeshh"
-                target="_blank"
-                class="home__social-icon"
-              >
-                <i class="uil uil-github-alt home__icon"></i>
-              </a>
-            </div>
-            <div class="home__img">
-              <svg
-                class="home__blob"
-                viewBox="0 0 200 187"
-                xmlns="http://www.w3.org/2000/svg"
-                xmlns:xlink="http://www.w3.org/1999/xlink"
-              >
-                <mask id="mask0" mask-type="alpha">
-                  <path
-                    d="M190.312 36.4879C206.582 62.1187 201.309 102.826 182.328 134.186C163.346 165.547 
-                      130.807 187.559 100.226 186.353C69.6454 185.297 41.0228 161.023 21.7403 129.362C2.45775 
-                      97.8511 -7.48481 59.1033 6.67581 34.5279C20.9871 10.1032 59.7028 -0.149132 97.9666 
-                      0.00163737C136.23 0.303176 174.193 10.857 190.312 36.4879Z"
-                  />
-                </mask>
-                <g mask="url(#mask0)">
-                  <path
-                    d="M190.312 36.4879C206.582 62.1187 201.309 102.826 182.328 134.186C163.346 
-                      165.547 130.807 187.559 100.226 186.353C69.6454 185.297 41.0228 161.023 21.7403 
-                      129.362C2.45775 97.8511 -7.48481 59.1033 6.67581 34.5279C20.9871 10.1032 59.7028 
-                     -0.149132 97.9666 0.00163737C136.23 0.303176 174.193 10.857 190.312 36.4879Z"
-                  />
-                  <image
-                    class="home__blob-img"
-                    x="-79"
-                    y="-46"
-                    xlink:href="assets/img/Pro.jpg"
-                  />
-                </g>
-              </svg>
-            </div>
-            <div class="home__data">
-              <h1 class="home__title">Hi, I am Navya Verma</h1>
-              <h3 class="home__subtitle">
-                Artficial Inelligence and Machine Learning Student
-              </h3>
-              <p class="home__description">
-                Sophomore at 
-                <strong>Indira Gandhi Delhi Technical University for Women </strong>, Delhi.
-              </p>
-              <a href="#contact" class="button button--flex">
-                Contact me<i class="uil uil-message button__icon"></i>
-              </a>
-            </div>
-          </div>
-
-          <div class="home__scroll">
-            <a href="#about" class="home__scroll-button button--flex">
-              <i class="uil uil-mouse-alt home__scroll-mouse"></i>
-              <span class="home__scroll-name">Scroll down</span>
-              <i class="uil uil-arrow-down home__scroll-arrow"></i>
-            </a>
-          </div>
-        </div>
-      </section>
-
-      <!--======================= About========================-->
-
-      <section class="about section" id="about">
-        <h2 class="section__title">About Me</h2>
-        <span class="section__subtitle">My introduction</span>
-
-        <div class="about__container container grid">
-          <img src="assets\img\about.jpg" alt="" class="about__img" />
-
-          <div class="about__data">
-            <p class="about__description">
-               I have always been fascinated by the limitless possibilities of technology and how it can shape the world we live in. My passion lies in the field of software engineeting , UI/UX and web development , where I strive to ensure that software and applications meet the highest standards of functionality and reliability.
-            </p>
-
-            <div class="about__info">
-              <div>
-                <span class="about__info-title">7.98</span>
-                <span class="about__info-name">Aggregate <br />CGPA</span>
+        <body oncontextmenu="return false">
+          <header class="header" id="header">
+            <nav class="nav container">
+              <a href="#" class="nav__logo">Navya Verma</a>
+              <div class="nav__menu" id="nav-menu">
+                <ul class="nav__list grid">
+                  <li class="nav__item">
+                    <a href="#home" class="nav__link active-link">
+                      <i class="uil uil-estate nav__icon"></i>Home
+                    </a>
+                  </li>
+                  <li class="nav__item">
+                    <a href="#about" class="nav__link">
+                      <i class="uil uil-user nav__icon"></i>About
+                    </a>
+                  </li>
+                  <li class="nav__item">
+                    <a href="#skills" class="nav__link">
+                      <i class="uil uil-file-alt nav__icon"></i>Skills
+                    </a>
+                  </li>
+                  <li class="nav__item">
+                    <a href="#qualification" class="nav__link">
+                      <i class="uil uil-briefcase-alt nav__icon"></i>Qualification
+                    </a>
+                  </li>
+                  <li class="nav__item">
+                    <a href="#portfolio" class="nav__link">
+                      <i class="uil uil-scenery nav__icon"></i>Projects
+                    </a>
+                  </li>
+                  <li class="nav__item">
+                    <a href="#contact" class="nav__link">
+                      <i class="uil uil-message nav__icon"></i>Contact-Me
+                    </a>
+                  </li>
+                </ul>
+                <i class="uil uil-times nav__close" id="nav-close"></i>
               </div>
+              <div class="nav__btns">
+                <!-- Theme change button -->
+                <i class="uil uil-moon change-theme" id="theme-button"></i>
 
-              <div>
-                <span class="about__info-title">07+</span>
-                <span class="about__info-name"
-                  >Dev <br />
-                  Projects</span
-                >
+                <div class="nav__toggle" id="nav-toggle">
+                  <i class="uil uil-apps"></i>
+                </div>
               </div>
+            </nav>
+          </header>
+          <!-- main-->
 
-              <div>
-                <span class="about__info-title">02</span>
-                <span class="about__info-name">Months <br />experience</span>
+          <main class="main">
+            <!--========================= Home =====================-->
+
+            <section class="home section" id="home">
+              <div class="home__container container grid">
+                <div class="home__content grid">
+                  <div class="home__social">
+                    <a
+                      href="https://www.linkedin.com/in/nv1105/"
+                      target="_blank"
+                      class="home__social-icon"
+                    >
+                      <i class="uil uil-linkedin-alt home__icon"></i>
+                    </a>
+
+                    <a
+                      href="https://github.com/Navya-Verma11"
+                      target="_blank"
+                      class="home__social-icon"
+                    >
+                      <i class="uil uil-github-alt home__icon"></i>
+                    </a>
+                  </div>
+                  <div class="home__img">
+                    <svg
+                      class="home__blob"
+                      viewBox="0 0 200 187"
+                      xmlns="http://www.w3.org/2000/svg"
+                      xmlns:xlink="http://www.w3.org/1999/xlink"
+                    >
+                      <mask id="mask0" mask-type="alpha">
+                        <path
+                          d="M190.312 36.4879C206.582 62.1187 201.309 102.826 182.328 134.186C163.346 165.547 
+                            130.807 187.559 100.226 186.353C69.6454 185.297 41.0228 161.023 21.7403 129.362C2.45775 
+                            97.8511 -7.48481 59.1033 6.67581 34.5279C20.9871 10.1032 59.7028 -0.149132 97.9666 
+                            0.00163737C136.23 0.303176 174.193 10.857 190.312 36.4879Z"
+                        />
+                      </mask>
+                      <g mask="url(#mask0)">
+                        <path
+                          d="M190.312 36.4879C206.582 62.1187 201.309 102.826 182.328 134.186C163.346 
+                            165.547 130.807 187.559 100.226 186.353C69.6454 185.297 41.0228 161.023 21.7403 
+                            129.362C2.45775 97.8511 -7.48481 59.1033 6.67581 34.5279C20.9871 10.1032 59.7028 
+                           -0.149132 97.9666 0.00163737C136.23 0.303176 174.193 10.857 190.312 36.4879Z"
+                        />
+                        <image
+                          class="home__blob-img"
+                          x="-79"
+                          y="-46"
+                          xlink:href="ProfilePic.png"
+                        />
+                      </g>
+                    </svg>
+                  </div>
+                  <div class="home__data">
+                    <h1 class="home__title">Hi, I am Navya Verma</h1>
+                    <h3 class="home__subtitle">
+                      Artificial Intelligence and Machine Learning Student
+                    </h3>
+                    <p class="home__description">
+                      Bachelor of Technology at <strong>Indira Gandhi Delhi Technical University for Women</strong>, pursuing my passion in software engineering, UI/UX, and web development.
+                    </p>
+                    <a href="#contact" class="button button--flex">
+                      Contact me<i class="uil uil-message button__icon"></i>
+                    </a>
+                  </div>
+                </div>
+
+                <div class="home__scroll">
+                  <a href="#about" class="home__scroll-button button--flex">
+                    <i class="uil uil-mouse-alt home__scroll-mouse"></i>
+                    <span class="home__scroll-name">Scroll down</span>
+                    <i class="uil uil-arrow-down home__scroll-arrow"></i>
+                  </a>
+                </div>
               </div>
-            </div>
+            </section>
 
-            <div class="about__buttons">
-              <a download="" href="assets\MyCV.pdf" class="button button--flex">
-                Download CV<i class="fas fa-download button__icon"></i>
-              </a>
-            </div>
-          </div>
-        </div>
-      </section>
+            <!--======================= About========================-->
 
-      <!--===================== SKILLS =====================-->
+            <section class="about section" id="about">
+              <h2 class="section__title">About Me</h2>
+              <span class="section__subtitle">My introduction</span>
 
-      <section class="skills section" id="skills">
-        <h2 class="section__title">Skills</h2>
-        <span class="section__subtitle">My technical level</span>
+              <div class="about__container container grid">
+                <img src="Aboutimg.jpeg" alt="" class="about__img" />
 
-        <div class="skills__container container grid">
-          <div>
-            <!--==================== Skill 1 =================-->
-            <div class="skills__content skills__open">
-              <div class="skills__header">
-                <i class="fas fa-pencil-ruler skills__icon"></i>
+                <div class="about__data">
+                  <p class="about__description">
+                    I am driven by a deep interest in leveraging technology to solve real-world challenges. With a focus on software engineering, UI/UX design, and web development, I strive to create impactful, reliable applications.
+                  </p>
+
+                  <div class="about__info">
+                    <div>
+                      <span class="about__info-title">8.25</span>
+                      <span class="about__info-name">CGPA <br />Current</span>
+                    </div>
+
+                    <div>
+                      <span class="about__info-title">10+</span>
+                      <span class="about__info-name"
+                        >Projects <br />
+                        Completed</span
+                      >
+                    </div>
+
+                    <div>
+                      <span class="about__info-title">2+</span>
+                      <span class="about__info-name">Years <br />experience</span>
+                    </div>
+                  </div>
+
+                  <div class="about__buttons">
+                    <a download="" href="NavyaVerma_Resume.pdf" class="button button--flex">
+                      Download CV<i class="fas fa-download button__icon"></i>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </section>
+
+            <!--===================== SKILLS =====================-->
+            <section class="skills section" id="skills">
+              <h2 class="section__title">Skills</h2>
+              <span class="section__subtitle">My technical level</span>
+
+              <div class="skills__container container grid">
+                <div>
+                  <!--==================== Skill 1 =================-->
+                  <div class="skills__content skills__open">
+                    <div class="skills__header">
+                      <i class="fas fa-pencil-ruler skills__icon"></i>
+
+                      <div>
+                        <h1 class="skills__title">Programming Languages</h1>
+                      </div>
+
+                      <i class="uil uil-angle-down skills__arrow"></i>
+                    </div>
+
+                    <div class="skills__list grid">
+                      <div class="skills__data">
+                        <div class="skills__titles">
+                          <h3 class="skills__name">Python</h3>
+                          <span class="skills__nuber">90%</span>
+                        </div>
+                        <div class="skills__bar">
+                          <span class="skills__percentage skills__html"></span>
+                        </div>
+                      </div>
+                      <div class="skills__data">
+                        <div class="skills__titles">
+                          <h3 class="skills__name">Java</h3>
+                          <span class="skills__nuber">70%</span>
+                        </div>
+                        <div class="skills__bar">
+                          <span class="skills__percentage skills__css"></span>
+                        </div>
+                      </div>
+                      <div class="skills__data">
+                        <div class="skills__titles">
+                          <h3 class="skills__name">JavaScript</h3>
+                          <span class="skills__nuber">75%</span>
+                        </div>
+                        <div class="skills__bar">
+                          <span class="skills__percentage skills__js"></span>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <!--==================== Skill 2 =================-->
+                  <div class="skills__content skills__close">
+                    <div class="skills__header">
+                      <i class="fas fa-code skills__icon"></i>
+
+                      <div>
+                        <h1 class="skills__title">IT Constructs</h1>
+                      </div>
+
+                      <i class="uil uil-angle-down skills__arrow"></i>
+                    </div>
+
+                    <div class="skills__list grid">
+                      <div class="skills__data">
+                        <div class="skills__titles">
+                          <h3 class="skills__name">DS & Algorithms</h3>
+                          <span class="skills__nuber">80%</span>
+                        </div>
+                        <div class="skills__bar">
+                          <span class="skills__percentage skills__php"></span>
+                        </div>
+                      </div>
+                      <div class="skills__data">
+                        <div class="skills__titles">
+                          <h3 class="skills__name">OOP</h3>
+                          <span class="skills__nuber">70%</span>
+                        </div>
+                        <div class="skills__bar">
+                          <span class="skills__percentage skills__node"></span>
+                        </div>
+                      </div>
+                      <div class="skills__data">
+                        <div class="skills__titles">
+                          <h3 class="skills__name">OS</h3>
+                          <span class="skills__nuber">60%</span>
+                        </div>
+                        <div class="skills__bar">
+                          <span class="skills__percentage skills__firebase"></span>
+                        </div>
+                      </div>
+                      <div class="skills__data">
+                        <div class="skills__titles">
+                          <h3 class="skills__name">DBMS</h3>
+                          <span class="skills__nuber">80%</span>
+                        </div>
+                        <div class="skills__bar">
+                          <span class="skills__percentage skills__python"></span>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
 
                 <div>
-                  <h1 class="skills__title">Programming Languages</h1>
-                </div>
+                  <!--==================== Skill 3 =================-->
+                  <div class="skills__content skills__close">
+                    <div class="skills__header">
+                      <i class="fas fa-swatchbook skills__icon"></i>
+                      <div>
+                        <h1 class="skills__title">Technologies</h1>
+                      </div>
 
-                <i class="uil uil-angle-down skills__arrow"></i>
-              </div>
+                      <i class="uil uil-angle-down skills__arrow"></i>
+                    </div>
 
-              <div class="skills__list grid">
-                <div class="skills__data">
-                  <div class="skills__titles">
-                    <h3 class="skills__name">Python</h3>
-                    <span class="skills__nuber">90%</span>
+                    <div class="skills__list grid">
+                      <div class="skills__data">
+                        <div class="skills__titles">
+                          <h3 class="skills__name">HTML/CSS/JS</h3>
+                          <span class="skills__nuber">85%</span>
+                        </div>
+                        <div class="skills__bar">
+                          <span class="skills__percentage skills__figma"></span>
+                        </div>
+                      </div>
+                      <div class="skills__data">
+                        <div class="skills__titles">
+                          <h3 class="skills__name">ReactJS</h3>
+                          <span class="skills__nuber">75%</span>
+                        </div>
+                        <div class="skills__bar">
+                          <span class="skills__percentage skills__sketch"></span>
+                        </div>
+                      </div>
+                      <div class="skills__data">
+                        <div class="skills__titles">
+                          <h3 class="skills__name">Node.js</h3>
+                          <span class="skills__nuber">70%</span>
+                        </div>
+                        <div class="skills__bar">
+                          <span class="skills__percentage skills__photoshop"></span>
+                        </div>
+                      </div>
+                    </div>
                   </div>
-                  <div class="skills__bar">
-                    <span class="skills__percentage skills__html"></span>
-                  </div>
-                </div>
-                <div class="skills__data">
-                  <div class="skills__titles">
-                    <h3 class="skills__name">Java</h3>
-                    <span class="skills__nuber">80%</span>
-                  </div>
-                  <div class="skills__bar">
-                    <span class="skills__percentage skills__css"></span>
-                  </div>
-                </div>
-                <div class="skills__data">
-                  <div class="skills__titles">
-                    <h3 class="skills__name">C</h3>
-                    <span class="skills__nuber">55%</span>
-                  </div>
-                  <div class="skills__bar">
-                    <span class="skills__percentage skills__js"></span>
-                  </div>
-                </div>
-              </div>
-            </div>
 
-            <!--==================== Skill 2 =================-->
-            <div class="skills__content skills__close">
-              <div class="skills__header">
-                <i class="fas fa-code skills__icon"></i>
+                  <!--==================== Skill 4 =================-->
+                  <div class="skills__content skills__close">
+                    <div class="skills__header">
+                      <i class="fas fa-cogs skills__icon"></i>
+                      <div>
+                        <h1 class="skills__title">Miscellaneous</h1>
+                      </div>
 
-                <div>
-                  <h1 class="skills__title">IT Constructs</h1>
-                </div>
+                      <i class="uil uil-angle-down skills__arrow"></i>
+                    </div>
 
-                <i class="uil uil-angle-down skills__arrow"></i>
-              </div>
-
-              <div class="skills__list grid">
-                <div class="skills__data">
-                  <div class="skills__titles">
-                    <h3 class="skills__name">DS & Algorithms</h3>
-                    <span class="skills__nuber">80%</span>
-                  </div>
-                  <div class="skills__bar">
-                    <span class="skills__percentage skills__php"></span>
-                  </div>
-                </div>
-                <div class="skills__data">
-                  <div class="skills__titles">
-                    <h3 class="skills__name">OOP</h3>
-                    <span class="skills__nuber">70%</span>
-                  </div>
-                  <div class="skills__bar">
-                    <span class="skills__percentage skills__node"></span>
-                  </div>
-                </div>
-                <div class="skills__data">
-                  <div class="skills__titles">
-                    <h3 class="skills__name">OS</h3>
-                    <span class="skills__nuber">45%</span>
-                  </div>
-                  <div class="skills__bar">
-                    <span class="skills__percentage skills__firebase"></span>
-                  </div>
-                </div>
-                <div class="skills__data">
-                  <div class="skills__titles">
-                    <h3 class="skills__name">DBMS</h3>
-                    <span class="skills__nuber">80%</span>
-                  </div>
-                  <div class="skills__bar">
-                    <span class="skills__percentage skills__python"></span>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div>
-            <!--==================== Skill 3 =================-->
-            <div class="skills__content skills__close">
-              <div class="skills__header">
-                <i class="fas fa-swatchbook skills__icon"></i>
-                <div>
-                  <h1 class="skills__title">Technologies</h1>
-                </div>
-
-                <i class="uil uil-angle-down skills__arrow"></i>
-              </div>
-
-              <div class="skills__list grid">
-                <div class="skills__data">
-                  <div class="skills__titles">
-                    <h3 class="skills__name">HTML/CSS/JS</h3>
-                    <span class="skills__nuber">85%</span>
-                  </div>
-                  <div class="skills__bar">
-                    <span class="skills__percentage skills__figma"></span>
-                  </div>
-                </div>
-                <div class="skills__data">
-                  <div class="skills__titles">
-                    <h3 class="skills__name">React</h3>
-                    <span class="skills__nuber">70%</span>
-                  </div>
-                  <div class="skills__bar">
-                    <span class="skills__percentage skills__sketch"></span>
-                  </div>
-                </div>
-                <div class="skills__data">
-                  <div class="skills__titles">
-                    <h3 class="skills__name">Node.js</h3>
-                    <span class="skills__nuber">60%</span>
-                  </div>
-                  <div class="skills__bar">
-                    <span class="skills__percentage skills__photoshop"></span>
+                    <div class="skills__list grid">
+                      <div class="skills__data">
+                        <div class="skills__titles">
+                          <h3 class="skills__name">Git</h3>
+                          <span class="skills__nuber">80%</span>
+                        </div>
+                        <div class="skills__bar">
+                          <span class="skills__percentage skills__python"></span>
+                        </div>
+                      </div>
+                      <div class="skills__data">
+                        <div class="skills__titles">
+                          <h3 class="skills__name">Figma</h3>
+                          <span class="skills__nuber">70%</span>
+                        </div>
+                        <div class="skills__bar">
+                          <span class="skills__percentage skills__python"></span>
+                        </div>
+                      </div>
+                      <div class="skills__data">
+                        <div class="skills__titles">
+                          <h3 class="skills__name">Ren'py</h3>
+                          <span class="skills__nuber">60%</span>
+                        </div>
+                        <div class="skills__bar">
+                          <span class="skills__percentage skills__python"></span>
+                        </div>
+                      </div>
+                      <div class="skills__data">
+                        <div class="skills__titles">
+                          <h3 class="skills__name">LATEX</h3>
+                          <span class="skills__nuber">80%</span>
+                        </div>
+                        <div class="skills__bar">
+                          <span class="skills__percentage skills__python"></span>
+                        </div>
+                      </div>
+                    </div>
                   </div>
                 </div>
               </div>
-            </div>
-          </div>
-        </div>
-      </section>
+            </section>
 
       <!--==================== Qualifications ==================-->
 
@@ -453,7 +502,7 @@
                           <i
                             class="uil uil-check-circle services__modal-icon"
                           ></i>
-                          <p>Scored an aggregate of 7.98 CGPA till second sem.</p>
+                          <p>Scored an aggregate of 8.24 CGPA till fourth sem.</p>
                         </li>
                         <li class="services__modal-service">
                           <i
@@ -478,263 +527,255 @@
         </div>
       </section>
 
-      <!--=================== Portfolio ===================-->
-      <section class="portfolio section" id="portfolio">
-        <h2 class="section__title">Projects</h2>
-        <span class="section__subtitle">Most recent work</span>
+            <!--=================== Portfolio ===================-->
+            <section class="portfolio section" id="portfolio">
+              <h2 class="section__title">Projects</h2>
+              <span class="section__subtitle">Most recent work</span>
 
-        <div class="portfolio__container container swiper-container">
-          <div class="swiper-wrapper">
-            <!-- ------------------------portfollio 1-------------------- -->
-            <div class="portfolio__content grid swiper-slide">
-              <img src="assets/img/portfolio1.png" class="portfolio__img" />
+              <div class="portfolio__container container swiper-container">
+                <div class="swiper-wrapper">
+                  <!-- ------------------------portfolio 1-------------------- -->
+                  <div class="portfolio__content grid swiper-slide">
+                   
 
-              <div class="portfolio__data">
-                <h3 class="portfolio__title">
-                  Share Sqaure : Community Sharing Website 
-                </h3>
-                <p class="portfolio__description">
-                  Facilitating collaboration, this community platform connects students and professionals. Share resources effortlessly, from study materials to insightful articles. Explore job opportunities, internships, and personal blogs within the community. Engage in round table discussions on a variety of topics for meaningful interactions.
-                </p>
-                <a
-                  href="https://github.com/project-ShareSquare/Website-"
-                  class="button button--flex button--small portfolio__button"
-                >
-                  GitHub Repository
-                  <i class="uil uil-external-link-alt button__icon"></i>
-                </a>
-                <a
-                  href="https://venkateeshh.github.io/Weather-App/"
-                  class="button button--flex button--small portfolio__button"
-                >
-                  See Live
-                  <i class="uil uil-external-link-alt button__icon"></i>
-                </a>
+                    <div class="portfolio__data">
+                      <h3 class="portfolio__title">Share Square: Community Sharing Website</h3>
+                      <p class="portfolio__description">
+                        Facilitating collaboration, this community platform connects students and professionals. Share resources effortlessly, from study materials to insightful articles. Explore job opportunities, internships, and personal blogs within the community. Engage in round table discussions on a variety of topics for meaningful interactions.
+                      </p>
+                      <a href="https://github.com/project-ShareSquare/Website-" class="button button--flex button--small portfolio__button">
+                        GitHub Repository
+                        <i class="uil uil-external-link-alt button__icon"></i>
+                      </a>
+                      <a href="https://venkateeshh.github.io/Weather-App/" class="button button--flex button--small portfolio__button">
+                        See Live
+                        <i class="uil uil-external-link-alt button__icon"></i>
+                      </a>
+                    </div>
+                  </div>
+
+                  <!-- ------------------------portfolio 2-------------------- -->
+                  <div class="portfolio__content grid swiper-slide">
+                    
+
+                    <div class="portfolio__data">
+                      <h3 class="portfolio__title">Centsible: Figma Based App</h3>
+                      <p class="portfolio__description">
+                        A user-friendly UI/UX app crafted with Figma, empowering young adults to master their finances. Dive into educational resources on finance trends, utilize tools for expense management, investment guidance, and savings strategies. Seamlessly navigate the complex world of cryptocurrency, making financial literacy accessible and actionable for the next generation.
+                      </p>
+                      <a href="https://drive.google.com/file/d/1fBkk7ygsl6e0uwdOXQ4eGlE5mbmvSBCH/view?pli=1" class="button button--flex button--small portfolio__button">
+                        Project Report
+                        <i class="uil uil-external-link-alt button__icon"></i>
+                      </a>
+                      <a href="https://venkateeshh.github.io/Spotify-Clone/" class="button button--flex button--small portfolio__button">
+                        See Live
+                        <i class="uil uil-external-link-alt button__icon"></i>
+                      </a>
+                    </div>
+                  </div>
+
+                  <!-- ------------------------portfolio 3-------------------- -->
+                  <div class="portfolio__content grid swiper-slide">
+                    
+
+                    <div class="portfolio__data">
+                      <h3 class="portfolio__title">Machine Learning Based Air Quality and Health Risk Prediction in Delhi</h3>
+                      <p class="portfolio__description">
+                        Introducing a cutting-edge machine learning model for air quality and health risk prediction in Delhi. Leveraging data on particulate matter and pollutants across the city, the model forecasts precise Air Quality Index (AQI) values for specific regions. Beyond that, it offers health risk predictions, providing valuable insights into potential health impacts associated with the prevailing air conditions, contributing to informed decision-making for residents.
+                      </p>
+                      <a href="https://github.com/Navya-Verma11/Python-and-ML-Major-Project" class="button button--flex button--small portfolio__button">
+                        GitHub Repository
+                        <i class="uil uil-external-link-alt button__icon"></i>
+                      </a>
+                      <a href="https://venkateeshh.github.io/Js-Language-Translator/" class="button button--flex button--small portfolio__button">
+                        See Live
+                        <i class="uil uil-external-link-alt button__icon"></i>
+                      </a>
+                    </div>
+                  </div>
+
+                  <!-- ------------------------portfolio 4-------------------- -->
+                  <div class="portfolio__content grid swiper-slide">
+                    
+
+                    <div class="portfolio__data">
+                      <h3 class="portfolio__title">Earthlytics: Environment Awareness Website</h3>
+                      <p class="portfolio__description">
+                        Crafting an impactful website dedicated to environmental awareness and action. This platform educates users on the significance of environmental conservation while offering volunteering opportunities. A user-friendly carbon footprint tracker empowers individuals to calculate and replace daily activities with sustainable alternatives, fostering a community committed to making a positive impact on the environment.
+                      </p>
+                      <a href="https://github.com/Navya-Verma11/EARTHLYTICA" class="button button--flex button--small portfolio__button">
+                        GitHub Repository
+                        <i class="uil uil-external-link-alt button__icon"></i>
+                      </a>
+                      <a href="https://www.linkedin.com/posts/venkatesh-kamath-_algorithmdesign-sortingvisualizer-javaprojects-activity-7095437035125043200-fWDl?utm_source=share&utm_medium=member_desktop" class="button button--flex button--small portfolio__button">
+                        See Live
+                        <i class="uil uil-external-link-alt button__icon"></i>
+                      </a>
+                    </div>
+                  </div>
+
+                  <!-- ------------------------portfolio 5-------------------- -->
+                  <div class="portfolio__content grid swiper-slide">
+                    
+
+                    <div class="portfolio__data">
+                      <h3 class="portfolio__title">HealthHub Connect</h3>
+                      <p class="portfolio__description">
+                        Designed prototypes of healthcare apps addressing economic challenges in India. The app focuses on providing accessible healthcare resources and connecting patients with health experts, improving the overall healthcare system.
+                      </p>
+                      <a href="https://github.com/your-repo-link" class="button button--flex button--small portfolio__button">
+                        GitHub Repository
+                        <i class="uil uil-external-link-alt button__icon"></i>
+                      </a>
+                      <a href="https://your-app-live-link" class="button button--flex button--small portfolio__button">
+                        See Live
+                        <i class="uil uil-external-link-alt button__icon"></i>
+                      </a>
+                    </div>
+                  </div>
+
+                  <!-- ------------------------portfolio 6-------------------- -->
+                  <div class="portfolio__content grid swiper-slide">
+                    
+
+                    <div class="portfolio__data">
+                      <h3 class="portfolio__title">Cashville: Financial Literacy Game</h3>
+                      <p class="portfolio__description">
+                        A visual novel game aimed at promoting financial literacy. The game uses interactive storytelling to teach important financial concepts and decision-making skills in a fun and engaging way.
+                      </p>
+                      <a href="https://github.com/your-repo-link" class="button button--flex button--small portfolio__button">
+                        GitHub Repository
+                        <i class="uil uil-external-link-alt button__icon"></i>
+                      </a>
+                      <a href="https://your-app-live-link" class="button button--flex button--small portfolio__button">
+                        See Live
+                        <i class="uil uil-external-link-alt button__icon"></i>
+                      </a>
+                    </div>
+                  </div>
+
+                  <!-- ------------------------portfolio 7-------------------- -->
+                  <div class="portfolio__content grid swiper-slide">
+                    
+
+                    <div class="portfolio__data">
+                      <h3 class="portfolio__title">PlayIt: Media Upload and Streaming Platform</h3>
+                      <p class="portfolio__description">
+                        Developed a platform for media uploads and streaming, allowing users to share their videos and enjoy seamless streaming experiences. The app features a user-friendly interface with options for comments, likes, and sharing media.
+                      </p>
+                      <a href="https://github.com/your-repo-link" class="button button--flex button--small portfolio__button">
+                        GitHub Repository
+                        <i class="uil uil-external-link-alt button__icon"></i>
+                      </a>
+                      <a href="https://your-app-live-link" class="button button--flex button--small portfolio__button">
+                        See Live
+                        <i class="uil uil-external-link-alt button__icon"></i>
+                      </a>
+                    </div>
+                  </div>
+
+                </div>
+
+                <!-- add arrows -->
+                <div class="swiper-button-next">
+                  <i class="uil uil-angle-right-b swiper-portfolio-icon"></i>
+                </div>
+                <div class="swiper-button-prev">
+                  <i class="uil uil-angle-left-b swiper-portfolio-icon"></i>
+                </div>
+                <!-- add pagination -->
+                <div class="swiper-pagination"></div>
               </div>
-            </div>
+            </section>
 
-            <!-- ------------------------portfollio 2-------------------- -->
-            <div class="portfolio__content grid swiper-slide">
-              <img src="assets/img/portfolio2.png" class="portfolio__img" />
 
-              <div class="portfolio__data">
-                <h3 class="portfolio__title">Centsible : Figma Based App</h3>
-                <p class="portfolio__description">
-                  A user-friendly UI/UX app crafted with Figma, empowering young adults to master their finances. Dive into educational resources on finance trends, utilize tools for expense management, investment guidance, and savings strategies. Seamlessly navigate the complex world of cryptocurrency, making financial literacy accessible and actionable for the next generation.
-                </p>
-                <a
-                  href="https://github.com/Navya-Verma11/Centsible"
-                  class="button button--flex button--small portfolio__button"
-                >
-                  GitHub Repository
-                  <i class="uil uil-external-link-alt button__icon"></i>
-                </a>
-                <a
-                  href="https://venkateeshh.github.io/Spotify-Clone/"
-                  class="button button--flex button--small portfolio__button"
-                >
-                  See Live
-                  <i class="uil uil-external-link-alt button__icon"></i>
-                </a>
-              </div>
-            </div>
-            <!-- ------------------------portfollio 3-------------------- -->
-            <div class="portfolio__content grid swiper-slide">
-              <img src="assets/img/portfolio3.png" class="portfolio__img" />
+<!--===================== Contact Me =====================-->
+<section class="contact section" id="contact">
+  <h2 class="section__title">Contact Me</h2>
+  <span class="section__subtitle">Get in touch</span>
 
-              <div class="portfolio__data">
-                <h3 class="portfolio__title">Machine Learning Based Air Quality and Health Risk prediction in Delhi</h3>
-                <p class="portfolio__description">
-                  Introducing a cutting-edge machine learning model for air quality and health risk prediction in Delhi. Leveraging data on particulate matter and pollutants across the city, the model forecasts precise Air Quality Index (AQI) values for specific regions. Beyond that, it offers health risk predictions, providing valuable insights into potential health impacts associated with the prevailing air conditions, contributing to informed decision-making for residents.
-                </p>
-                <a
-                  href="https://github.com/Navya-Verma11/Python-and-ML-Major-Project"
-                  class="button button--flex button--small portfolio__button"
-                >
-                  GitHub Repository
-                  <i class="uil uil-external-link-alt button__icon"></i>
-                </a>
-                <a
-                  href="https://venkateeshh.github.io/Js-Language-Translator/"
-                  class="button button--flex button--small portfolio__button"
-                >
-                  See Live
-                  <i class="uil uil-external-link-alt button__icon"></i>
-                </a>
-              </div>
-            </div>
-
-            <!-- ------------------------portfollio 4-------------------- -->
-            <div class="portfolio__content grid swiper-slide">
-              <img src="assets/img/portfolio4.png" class="portfolio__img" />
-
-              <div class="portfolio__data">
-                <h3 class="portfolio__title">Earthlytics : Environment Awareness Website</h3>
-                <p class="portfolio__description">
-                  Crafting a impactful website dedicated to environmental awareness and action. This platform educates users on the significance of environmental conservation while offering volunteering opportunities. A user-friendly carbon footprint tracker empowers individuals to calculate and replace daily activities with sustainable alternatives, fostering a community committed to making a positive impact on the environment.
-                </p>
-                <a
-                  href="https://github.com/Navya-Verma11/EARTHLYTICA"
-                  class="button button--flex button--small portfolio__button"
-                >
-                  GitHub Repository
-                  <i class="uil uil-external-link-alt button__icon"></i>
-                </a>
-                <a
-                  href="https://www.linkedin.com/posts/venkatesh-kamath-_algorithmdesign-sortingvisualizer-javaprojects-activity-7095437035125043200-fWDl?utm_source=share&utm_medium=member_desktop"
-                  class="button button--flex button--small portfolio__button"
-                >
-                  See Live
-                  <i class="uil uil-external-link-alt button__icon"></i>
-                </a>
-              </div>
-            </div>
-          </div>
-
-          <!-- add arrows -->
-          <div class="swiper-button-next">
-            <i class="uil uil-angle-right-b swiper-portfolio-icon"></i>
-          </div>
-          <div class="swiper-button-prev">
-            <i class="uil uil-angle-left-b swiper-portfolio-icon"></i>
-          </div>
-          <!-- add pagination -->
-          <div class="swiper-pagination"></div>
+  <div class="contact__container container grid">
+    <div>
+      <div class="contact__information">
+        <i class="uil uil-calling contact__icon"></i>
+        <div>
+          <h3 class="contact__title">Phone</h3>
+          <span class="contact__subtitle"><a href="tel:+919310553824">+919310553824</a></span>
         </div>
-      </section>
-
-      <!--===================== Contact Me =====================-->
-      <section class="contact section" id="contact">
-        <h2 class="section__title">Contact Me</h2>
-        <span class="section__subtitle">Get in touch</span>
-
-        <div class="contact__container container grid">
-          <div>
-            <div class="contact__information">
-              <i class="uil uil-calling contact__icon"></i>
-
-              <div>
-                <h3 class="contact__title">Contact Me</h3>
-                <span class="contact__subtitle"
-                  ><a href="tel:6362243314"></a>6362243314</span
-                >
-              </div>
-            </div>
-
-            <div class="contact__information">
-              <i class="uil uil-envelope-minus contact__icon"></i>
-
-              <div>
-                <h3 class="contact__title">Email</h3>
-                <span class="contact__subtitle"
-                  >rkamathvenkatesh@gmail.com</span
-                >
-              </div>
-            </div>
-
-            <div class="contact__information">
-              <i class="uil uil-map-marker contact__icon"></i>
-
-              <div>
-                <h3 class="contact__title">Location</h3>
-                <span class="contact__subtitle"
-                  >Manglore, Karnataka, India</span
-                >
-              </div>
-            </div>
-          </div>
-
-          <form action="" class="contact__form grid">
-            <div class="contact__inputs grid">
-              <div class="contact__content">
-                <label for="" class="content__label">Name</label>
-                <input type="text" class="contact__input" />
-              </div>
-
-              <div class="contact__content">
-                <label for="" class="content__label">Email</label>
-                <input type="Email" class="contact__input" />
-              </div>
-            </div>
-
-            <div class="contact__content">
-              <label for="" class="content__label">Message</label>
-              <textarea
-                name=""
-                id=""
-                cols="0"
-                rows="7"
-                class="contact__input"
-              ></textarea>
-            </div>
-
-            <div>
-              <a
-                href=" mailto: rkamathvenkatesh@gmail.com?subject=Testing out mailto! &body=This is only a test!"
-                class="button button--flex"
-              >
-                Send Message
-                <i class="uil uil-message button__icon"></i>
-              </a>
-            </div>
-          </form>
-        </div>
-      </section>
-    </main>
-
-    <!--================== Footer ===============-->
-    <footer class="footer">
-      <div class="footer__bg">
-        <div class="footer__container container grid">
-          <div>
-            <h1 class="footer__title">Navya Verma</h1>
-            <span class="footer__subtitle"
-              >Indira Gandhi Delhi Technical University for Women</span
-            >
-          </div>
-
-          <ul class="footer__links">
-            <li>
-              <a href="#qualification" class="footer__link">Qualification</a>
-            </li>
-            <li>
-              <a href="#portfolio" class="footer__link">Portfolio</a>
-            </li>
-            <li>
-              <a href="#contact" class="footer__link">Contact-Me</a>
-            </li>
-          </ul>
-
-          <div class="footer__socials">
-            <a
-              href="https://www.instagram.com/venkateeshh/"
-              class="footer__social"
-              target="__blank"
-            >
-            <i class="fa-brands fa-instagram"></i>
-            </a>
-
-            <a
-              href="https://twitter.com/Venkateeshhh"
-              target="__blank"
-              class="footer__social"
-            >
-            <i class="fa-brands fa-x-twitter"></i>
-            </a>
-          </div>
-        </div>
-
-        <p class="footer__copy">&#169;Navya Verma. All right reserved</p>
       </div>
-    </footer>
 
-    <!--================== SCROLL TOP ==================-->
-    <a href="#" class="scrollup" id="scroll-up">
-      <i class="uil uil-arrow-up scrollup__icon"></i>
-    </a>
+      <div class="contact__information">
+        <i class="uil uil-envelope-minus contact__icon"></i>
+        <div>
+          <h3 class="contact__title">Email</h3>
+          <span class="contact__subtitle"><a href="mailto:navya039btaiml@igdtuw.ac.in">navya.pvt1105@gmail.com</a></span>
+        </div>
+      </div>
 
-    <script type="text/javascript" src="swiper-bundle.min.js"></script>
-    <script src="https://kit.fontawesome.com/2205d59d52.js" crossorigin="anonymous"></script>
-    <script src="ptj.js"></script>
-  </body>
+      <div class="contact__information">
+        <i class="uil uil-map-marker contact__icon"></i>
+        <div>
+          <h3 class="contact__title">Location</h3>
+          <span class="contact__subtitle">New Delhi, India</span>
+        </div>
+      </div>
+    </div>
+
+    <form action="" class="contact__form grid">
+      <div class="contact__inputs grid">
+        <div class="contact__content">
+          <label for="name" class="content__label">Name</label>
+          <input type="text" id="name" class="contact__input" required />
+        </div>
+
+        <div class="contact__content">
+          <label for="email" class="content__label">Email</label>
+          <input type="email" id="email" class="contact__input" required />
+        </div>
+      </div>
+
+      <div class="contact__content">
+        <label for="message" class="content__label">Message</label>
+        <textarea name="message" id="message" cols="0" rows="7" class="contact__input" required></textarea>
+      </div>
+
+      <div>
+        <a href="mailto:navya039btaiml@igdtuw.ac.in?subject=Message from Website&body=This is a message from the contact form" class="button button--flex">
+          Send Message
+          <i class="uil uil-message button__icon"></i>
+        </a>
+      </div>
+    </form>
+  </div>
+</section>
+
+<!--================== Footer ===============-->
+<footer class="footer">
+  <div class="footer__bg">
+    <div class="footer__container container grid">
+      <div>
+        <h1 class="footer__title">Navya Verma</h1>
+        <span class="footer__subtitle">Indira Gandhi Delhi Technical University for Women</span>
+      </div>
+
+      <ul class="footer__links">
+        <li><a href="#qualification" class="footer__link">Qualification</a></li>
+        <li><a href="#portfolio" class="footer__link">Portfolio</a></li>
+        <li><a href="#contact" class="footer__link">Contact Me</a></li>
+      </ul>
+
+
+    <p class="footer__copy">&#169; Navya Verma. All rights reserved.</p>
+  </div>
+</footer>
+
+<!--================== SCROLL TOP ==================-->
+<a href="#" class="scrollup" id="scroll-up">
+  <i class="uil uil-arrow-up scrollup__icon"></i>
+</a>
+
+<script type="text/javascript" src="swiper-bundle.min.js"></script>
+<script src="https://kit.fontawesome.com/2205d59d52.js" crossorigin="anonymous"></script>
+<script src="ptj.js"></script>
+</body>
 </html>
